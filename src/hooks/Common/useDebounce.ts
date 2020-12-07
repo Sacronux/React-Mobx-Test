@@ -20,19 +20,3 @@ export const useDebounce = (callBack, delay) => {
 
     return handler;
 };
-
-export const useSearchDebounce = (value, delay) => {
-    const [debouncedValue, setDebouncedValue] = useState(value);
-
-    useEffect(() => {
-        const _t = setTimeout(() => {
-            setDebouncedValue(value);
-        }, delay);
-
-        return(() => {
-            clearTimeout(_t);
-        });
-    }, [value]);
-
-    return debouncedValue;
-};
