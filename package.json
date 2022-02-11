@@ -125,7 +125,7 @@
     "husky": "^3.1.0",
     "lint-staged": "^10.0.9",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "npm-audit-html": "1.4.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.19.1",
